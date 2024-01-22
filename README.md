@@ -1,5 +1,3 @@
-# Название сценария
+# Захват изменений данных из Yandex Managed Service for MySQL и поставка в Yandex Data Streams с помощью Yandex Data Transfer
 
-Описание сценария и инструкция по его применению.
-
-Для практических руководств обязательна ссылка на документацию.
+С помощью сервиса [Data Transfer](https://cloud.yandex.ru/docs/data-transfer) вы можете отслеживать изменения данных в кластере [Managed Service for MySQL](https://cloud.yandex.ru/docs/managed-mysql) и отправлять их в [Data Streams](https://cloud.yandex.ru/docs/data-streams). Настройка через Terraform описана в [практическом руководстве](https://cloud.yandex.ru/docs/data-transfer/tutorials/mmy-to-yds), необходимый для настройки конфигурационный файл [mysql-yds.tf](mysql-yds.tf) расположен в этом репозитории.
