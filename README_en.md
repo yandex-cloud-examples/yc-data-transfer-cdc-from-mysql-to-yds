@@ -1,0 +1,3 @@
+# Capturing data changes from Yandex Managed Service for MySQL and delivering them to Yandex Data Streams through Yandex Data Transfer
+
+With [Data Transfer](https://yandex.cloud/en/docs/data-transfer), you can track data changes in a [Managed Service for MySQL](https://yandex.cloud/en/docs/managed-mysql) cluster and send them to [Data Streams](https://yandex.cloud/en/docs/data-streams). See [this tutorial](https://yandex.cloud/en/docs/data-transfer/tutorials/mmy-to-yds) to learn how to set up the solution with Terraform. This repository contains the configuration file you will need: [mysql-yds.tf](mysql-yds.tf).
